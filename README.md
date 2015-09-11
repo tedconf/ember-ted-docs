@@ -2,7 +2,7 @@
 
 Components for writing docs sites for your open-source projects.
 
-![Demo](public/images/demo.png)
+![Demo](https://cloud.githubusercontent.com/assets/2922250/9823883/1663a7c6-5897-11e5-9aeb-ebe94155facf.png)
 
 ## Requirements
 
@@ -50,6 +50,6 @@ In your template you can now use the `<ted-page-header>` component:
 
 and here's what you get:
 
-![Demo](public/images/demo.png)
+![Demo](https://cloud.githubusercontent.com/assets/2922250/9823883/1663a7c6-5897-11e5-9aeb-ebe94155facf.png)
 
 Now, go forth and document!
