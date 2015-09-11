@@ -2,5 +2,5 @@
 'use strict';
 
 module.exports = {
-  name: 'ted-page-header'
+  name: 'ember-ted-docs'
 };
