@@ -1,6 +1,6 @@
 # Ember TED Docs
 
-Components for writing docs sites for your open-source projects.
+Components for writing docs sites for your open-source projects at TED.
 
 ![Demo](https://cloud.githubusercontent.com/assets/2922250/9823883/1663a7c6-5897-11e5-9aeb-ebe94155facf.png)
 
