@@ -14,7 +14,12 @@ You already have an Ember app under `/tests/dummy`, so you can just use that for
 
 **Documenting another project**
 
-You'll be making a new Ember app for your docs. [Install Ember CLI](http://www.ember-cli.com) if you haven't already. Then, from your project's repo, [check out an orphaned branch](http://www.samselikoff.com/blog/starting-a-github-pages-site-from-an-existing-project/) - but don't use the name `github-pages`, since we'll be publishing `dist` to that branch. Use something like `docs`.
+You'll be making a new Ember app for your docs. [Install Ember CLI](http://www.ember-cli.com) if you haven't already. Then, from your project's repo, check out an orphaned branch:
+
+```sh
+git checkout --orphan docs
+git clean -fd  # this removes the working files in your directory
+```
 
 ## Installation
 
