@@ -2,6 +2,8 @@
 
 Components for writing docs sites for your open-source projects.
 
+![Demo](public/images/demo.png)
+
 ## Requirements
 
 This is an Ember addon, so it assumes you'll be creating your docs site as an Ember app.
@@ -48,6 +50,6 @@ In your template you can now use the `<ted-page-header>` component:
 
 and here's what you get:
 
-![public/images/demo.png]
+![Demo](public/images/demo.png)
 
 Now, go forth and document!
