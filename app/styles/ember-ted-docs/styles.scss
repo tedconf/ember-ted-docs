@@ -101,7 +101,7 @@ $etdPurple: #441678;
     margin-top: 0;
     overflow: hidden;
     @include etd-above(700px) {
-      line-height: 61px;
+      line-height: 1.2;
       font-size: 63px;
     }
   }
