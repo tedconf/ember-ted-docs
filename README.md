@@ -30,7 +30,7 @@ Install the following addons:
 
 ```sh
 ember install ember-cli-sass
-ember install ember-cli-bootstrap-sassy
+bower install --save bootstrap-sass
 ember install ember-ted-docs
 ```
 
@@ -38,7 +38,7 @@ and import Bootstrap and TED docs' styles (you may need to rename `app.css` to `
 
 ```
 <!-- tests/dummy/app/styles/app.scss -->
-@import 'bootstrap';
+@import 'bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 @import 'ember-ted-docs/styles';
 ```
 
