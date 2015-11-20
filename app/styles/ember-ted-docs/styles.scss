@@ -39,7 +39,7 @@ $etdPurple: #441678;
     position: relative;
     display: inline-block;
     color: #555;
-    padding: 4px 6px;
+    padding: 4px 0;
     border-radius: 4px;
     opacity: 0.85;
     @include etd-transition(all, 0.2s);
@@ -49,11 +49,19 @@ $etdPurple: #441678;
       color: #555;
       text-decoration: none;
       opacity: 1;
-      @include etd-transform(translate(-5px));
     }
 
     &--has-arrow:hover,
     &--has-arrow:focus {
+    }
+
+    &--animated {
+      padding: 4px 6px;
+
+      &:hover,
+      &:focus {
+        @include etd-transform(translate(-5px));
+      }
     }
   }
   &__ted-logo {
