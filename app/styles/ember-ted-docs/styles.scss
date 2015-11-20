@@ -32,8 +32,6 @@ $etdPurple: #441678;
 }
 
 .tph-Banner {
-  text-align: right;
-  text-transform: uppercase;
   line-height: 40px;
   font-size: 16px;
 
@@ -41,17 +39,29 @@ $etdPurple: #441678;
     position: relative;
     display: inline-block;
     color: #555;
-    padding: 4px 6px;
+    padding: 4px 0;
     border-radius: 4px;
     opacity: 0.85;
     @include etd-transition(all, 0.2s);
 
     &:hover,
     &:focus {
-      color: #555;
+      color: #444;
       text-decoration: none;
       opacity: 1;
-      @include etd-transform(translate(-5px));
+    }
+
+    &--has-arrow:hover,
+    &--has-arrow:focus {
+    }
+
+    &--animated {
+      padding: 4px 6px;
+
+      &:hover,
+      &:focus {
+        @include etd-transform(translate(-5px));
+      }
     }
   }
   &__ted-logo {
@@ -59,9 +69,11 @@ $etdPurple: #441678;
     vertical-align: top;
   }
   &__slim-logo {
+    text-transform: uppercase;
     font-weight: 200;
   }
   &__strong-logo {
+    text-transform: uppercase;
     font-weight: 900;
   }
   &__arrow {

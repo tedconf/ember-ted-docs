@@ -53,7 +53,8 @@ In your template you can now use the `<ted-page-header>` component:
   subheading='My'
   slim-heading='Awesome'
   strong-heading='Library'
-  byline='The best, most amazing thing to happen to anyone, anywhere'}}
+  byline='The best, most amazing thing to happen to anyone, anywhere'
+  github='http://github.com/tedconf/ember-ted-docs'}}
 ```
 
 and here's what you get:
